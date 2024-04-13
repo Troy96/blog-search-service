@@ -1,0 +1,28 @@
+# Compiled files
+*.class
+*.war
+*.ear
+*.jar
+
+# Package files
+*.log
+*.tar.gz
+*.zip
+*.rar
+
+# Maven specific
+/target/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+/.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+node_modules/
