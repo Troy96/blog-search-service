@@ -31,12 +31,13 @@
 # 5. Sample Request: 
 > To search for blogs by tag, send a GET request to the /api/blogs/search endpoint with the tag parameter set to the desired tag name. For example:
 
-```GET /api/blogs/search?tag=technology```
+```GET /api/blogs/search?tag=Physics```
 
 # 6. Additional Notes:
 - The Blog Service endpoint uses Spring Boot for building RESTful APIs and Hibernate ORM for database interaction.
 - We are assuming there would be no tags having multiple parent tags.
 - We have used VS Code as our IDE for development environment.
+- If no tag or any blog linked with the tag exists, the search will send an empty list in response.
 - Authentication and authorization mechanisms can be implemented to secure the endpoint if required.
 
 # 7. Prerequisites
