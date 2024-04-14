@@ -4,7 +4,7 @@
 # 2. Database Schema: 
 > The database schema for the service endpoint includes the following tables:
 
-**blogs:** Contains information about the blogs, including blog ID, title, content, author ID, and creation date.
+**blogs:** Contains information about the blogs, including blog ID, title and body.
 
 **tags:** Stores information about the tags associated with the blogs, including tag ID, tag name, and parent tag ID.
 
