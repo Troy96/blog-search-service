@@ -13,7 +13,7 @@
 # 3. ORM Schema: 
 > The ORM (Object-Relational Mapping) schema corresponds to the Java model classes used to represent database entities:
 
-**Blog:** Represents a blog post, including attributes such as ID, title, content, author, and creation date.
+**Blog:** Represents a blog post, including attributes such as ID, title and body.
 
 **Tag:** Represents a tag associated with a blog post, including attributes such as ID, name, and parent tag ID.
 
